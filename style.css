@@ -16,25 +16,8 @@ padding: 400px 0;
 
 }
 
-.container {
-  margin: 30px auto;
-  width: 750px;
-}
-
-.banner .container {
-position: relative
-}
 
 
-.banner .container h1 {
-position: absolute;
-top: -370px;
-}
-
-.banner .container h2 {
-  position: absolute;
-  top:-190px;
-}
 
 
 a {
@@ -49,23 +32,69 @@ a:hover {
   background: rgb(125, 235, 111);
 }
 
-@media (min-width:800px) and (max-width: 1200px) {
+@media (min-width:800px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
+    margin: 30px auto;
     width: 800px;
   }
+  .banner .container {
+position: relative
+}
+
+
+.banner .container h1 {
+position: absolute;
+top: -290px;
+}
+
+.banner .container h2 {
+  position: absolute;
+  top:-190px;
+}
 }
 
 @media (min-width: 540px) and (max-width: 800px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
+    margin: 30px auto;
     width: 450px;
   }
+  .banner .container {
+position: relative
+}
+
+
+.banner .container h1 {
+position: absolute;
+top: -390px;
+}
+
+.banner .container h2 {
+  position: absolute;
+  top:-250px;
+}
+
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
+    margin: 30px auto;
     width: 300px;
   }
+  .banner .container {
+position: relative
+}
+
+
+.banner .container h1 {
+position: absolute;
+top: -370px;
+}
+
+.banner .container h2 {
+  position: absolute;
+  top:-190px;
+}
 }
